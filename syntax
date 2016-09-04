@@ -1,0 +1,10 @@
+disp()   %display function
+%working with matrices and vectors
+A = [1 2; 3 2; 6 4];
+v = 1:0.1:2  % A row vector starting from 1 and incrementing 0.1 till 2
+x = ones(2,3)  %generates a 2/3 unit matrix
+w = rand(1,3)   %generates a 1x3 matrix with random entries   
+x = randn(3,3)  %negative
+hist(w)         %plots a histogram with w
+hist(w,6)       %
+eye(4)          %4x4 identity matrix
